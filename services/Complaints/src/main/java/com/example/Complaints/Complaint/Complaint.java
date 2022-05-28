@@ -21,5 +21,49 @@ public class Complaint {
     }
 
 
+    // ID **
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+    // **
+
+
+    // DESCRIPTION ***
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    // ***
+
+
+    // PRIORITY ****
+    public Boolean getPriority() {
+        return priority;
+    }
+
+    public void setPriority(Boolean priority) {
+        this.priority = priority;
+    }
+
+    // ****
+
+
+    // DATE *****
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    // *****
 }
